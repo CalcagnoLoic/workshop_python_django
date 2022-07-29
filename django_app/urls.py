@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name='homepage'),
     path("movie_details/<int:id>/", views.movie_details, name="movie_details"),
-    path("movie/add/", views.add_movies, name="add_movies")
+    path("movie/add/", views.add_movies, name="add_movies"),
+    path('contact_form/', views.contact, name="contact_form")
 ]

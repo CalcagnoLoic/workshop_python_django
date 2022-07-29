@@ -1,6 +1,7 @@
+from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 
-from app1.forms import AddFilm
+from app1.forms import AddFilm, ContactUs
 from app1.models import ModelFilm
 
 
@@ -26,4 +27,22 @@ def add_movies(request):
         form = AddFilm()
 
     return render(request, 'app1/add_film.html',
+                  {'form': form})
+
+
+def contact(request):
+    if request.method == 'POST':
+        form = ContactUs(request.POST)
+        if form.is_valid():
+            send_mail(
+                subject=form.cleaned_data['name'],
+                message=form.cleaned_data['message'],
+                from_email=form.cleaned_data['email'],
+                recipient_list=['monadresse@django.be']
+            )
+            return redirect('homepage')
+    else:
+        form = ContactUs()
+
+    return render(request, 'app1/contactus.html',
                   {'form': form})
