@@ -16,7 +16,7 @@ Deux parties seront abordées dans ce workshop :
 
 Ce repository a été écrit en donnant un maximum d'infos théoriques pour vous aider à comprendre la logique de Django. Des bouts de code complète l'aspect théorique. 
 
-Le but de ce projet est de comprendre l'arborescence d'un projet Django et d'appréhender le MVT en créant tout simplement un site web comportant une liste de films associés à leurs caractéristiques. 
+Le but de ce projet est de comprendre l'arborescence d'un projet Django et d'appréhender le MVT en créant tout simplement une page web comportant une liste de films associés à leurs caractéristiques. 
 
 Vous trouverez 3 branches sur ce repo : 
 
