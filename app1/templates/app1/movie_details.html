@@ -1,0 +1,14 @@
+{% extends 'app1/base.html' %}
+{% block content%}
+
+<h1>Voici les détails du film : " {{movie.name}} " </h1>
+
+<ul>
+    <li>Année de production : {{ movie.year }}</li>
+    <li>Responsable cinématographique : {{ movie.author }}</li>
+    <li>Avez-vous vu ce film? {{ movie.seen_or_not|yesno }}</li>
+    <li>Le genre de ce film : {{ movie.get_genre_display }}</li>
+    <li>Page du film : {{ movie.official_page }}</li>
+</ul>
+
+{% endblock %}

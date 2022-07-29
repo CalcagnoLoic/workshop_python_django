@@ -4,9 +4,9 @@
 <h1>Voici les films de votre liste :</h1>
 
 <ul>
-    {% for elem in film %}
+    {% for elem in films %}
     <li>
-        {{elem.name}}
+        <a href="{% url 'movie_details' elem.id %}">{{elem.name}}</a>
     </li>
     {%endfor%}
 </ul>
