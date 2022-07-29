@@ -22,6 +22,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CHq9iqdP5H1SPZMcZJmLwjTyof" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
