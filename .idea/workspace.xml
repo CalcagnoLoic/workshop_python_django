@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="Creation of contact form" />
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add bonus n°1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +46,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\loic8\Bureau\Formations\BeCode\Veilles_Workshop\workshop_python\img" />
       <recent name="C:\Users\loic8\Bureau\Formations\BeCode\Veilles_Workshop\workshop_python" />
       <recent name="C:\Users\loic8\Bureau\Formations\BeCode\Veilles_Workshop\workshop_python\1.Introduction_python" />
     </key>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659119042042</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add bonus n°1">
+      <created>1659123768201</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659123768201</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +259,7 @@
     <MESSAGE value="add new img" />
     <MESSAGE value="modification of fields of models.py" />
     <MESSAGE value="add bonus files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bonus files" />
+    <MESSAGE value="add bonus n°1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bonus n°1" />
   </component>
 </project>
