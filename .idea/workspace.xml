@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add style with tailwind and crispy-forms">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add title bonus">
       <change beforePath="$PROJECT_DIR$/2.Framework_django/06.template.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/06.template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.Framework_django/B2.static.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/B2.static.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659123768201</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add bonus n°2">
+      <created>1659128569580</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659128569580</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add title bonus">
+      <created>1659128960908</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659128960908</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +276,8 @@
     <MESSAGE value="modification of fields of models.py" />
     <MESSAGE value="add bonus files" />
     <MESSAGE value="add bonus n°1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bonus n°1" />
+    <MESSAGE value="add bonus n°2" />
+    <MESSAGE value="add title bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="add title bonus" />
   </component>
 </project>
