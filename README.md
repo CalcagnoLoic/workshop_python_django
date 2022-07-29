@@ -1,6 +1,6 @@
 # Workshop Python
 
-- [ ] Date: xx/08/2022
+- [ ] Date: 08/08/2022
 - [ ] Durée : 5h
 
 
