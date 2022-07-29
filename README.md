@@ -30,9 +30,9 @@ Vous trouverez 3 branches sur ce repo :
 
 9h à 10h : Introduction/Rappel des bases en Python
 
-10h à 12h30 : Projet Django (modèless, schéma de migration, admin, test de l'admin, views)
+10h à 12h30 : Projet Django (modèles, schéma de migration, admin, views, template général)
 
-13h30 à 14h00 : Projet Django (template)
+13h30 à 14h00 : Projet Django (template spécialisé)
 
 [Découvrons quelques bases utiles dans Python](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.md)
 
