@@ -8,7 +8,8 @@
     <li>Responsable cinématographique : {{ movie.author }}</li>
     <li>Avez-vous vu ce film? {{ movie.seen_or_not|yesno }}</li>
     <li>Le genre de ce film : {{ movie.get_genre_display }}</li>
-    <li>Page du film : {{ movie.official_page }}</li>
+    <li>Page du film : <a href="{{ movie.official_page }}" target="_blank">{{ movie.name }}</a></li>
 </ul>
 
+<a href="{% url 'homepage' %}">Retour à la page des films</a>
 {% endblock %}
