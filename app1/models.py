@@ -2,7 +2,7 @@ from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 
-class ModelPerson(models.Model):
+class ModelFilm(models.Model):
     class LandChoices(models.TextChoices):
         Belgique = "BE",
         France = "Fr",
@@ -10,8 +10,9 @@ class ModelPerson(models.Model):
         Italie = "IT"
 
     name = models.CharField(max_length=200)
-    age = models.IntegerField(validators=[
-        MinValueValidator(1), MaxValueValidator(100)])
-    email = models.EmailField()
+    year = models.IntegerField(validators=[
+        MinValueValidator(1950), MaxValueValidator(2022)])
+    author = models.CharField(max_length=100)
     english = models.BooleanField(default=False)
-    land = models.CharField(choices=LandChoices.choices, max_length=25)
+    land_production = models.CharField(choices=LandChoices.choices, max_length=25)
+    official_page = models.CharField(max_length=150)
