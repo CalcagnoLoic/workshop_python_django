@@ -1,0 +1,14 @@
+{% extends 'app1/base.html' %}
+{% block content%}
+
+<h1>Voici les films de votre liste :</h1>
+
+<ul>
+    {% for elem in film %}
+    <li>
+        {{elem.name}}
+    </li>
+    {%endfor%}
+</ul>
+
+{% endblock %}
