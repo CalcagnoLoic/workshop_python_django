@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add bonus n°1" />
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add style with tailwind and crispy-forms">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.Framework_django/06.template.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/06.template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.Framework_django/B2.static.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/B2.static.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
