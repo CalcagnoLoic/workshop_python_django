@@ -1,12 +1,16 @@
 {% extends 'app1/base.html' %}
+{% load tailwind_filters %}
 {% block content%}
 
-<h1>Voulez-vous ajouter un film?</h1>
+<h1 class="text-3xl mb-5 pl-7 pt-8 italic">Voulez-vous ajouter un film?</h1>
 
-<form action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button>Envoyer</button>
-</form>
+    <div class="lg:w-full lg:max-w-7xl lg:mx-auto px-4">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button class="bg-gray-600 p-2 rounded mb-5 hover:bg-gray-500 text-white">Envoyer</button>
+        </form>
+    </div>
+
 
 {% endblock %}

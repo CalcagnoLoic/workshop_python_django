@@ -1,11 +1,11 @@
 {% extends 'app1/base.html' %}
 {% block content%}
 
-<h1>Voici les films de votre liste :</h1>
+<h1 class="text-3xl mb-5 pl-7 pt-8 italic">Voici les films de votre liste :</h1>
 
-<ul>
+<ul class="mb-2 pl-[150px]">
     {% for elem in films %}
-    <li>
+    <li class="list-disc">
         <a href="{% url 'movie_details' elem.id %}">{{elem.name}}</a>
     </li>
     {%endfor%}

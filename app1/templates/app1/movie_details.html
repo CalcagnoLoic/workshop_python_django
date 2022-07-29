@@ -1,15 +1,15 @@
 {% extends 'app1/base.html' %}
 {% block content%}
 
-<h1>Voici les détails du film : " {{movie.name}} " </h1>
+<h1 class="text-3xl mb-5 pl-7 pt-8 italic">Voici les détails du film : " {{movie.name}} " </h1>
 
-<ul>
-    <li>Année de production : {{ movie.year }}</li>
-    <li>Responsable cinématographique : {{ movie.author }}</li>
-    <li>Avez-vous vu ce film? {{ movie.seen_or_not|yesno }}</li>
-    <li>Le genre de ce film : {{ movie.get_genre_display }}</li>
-    <li>Page du film : <a href="{{ movie.official_page }}" target="_blank">{{ movie.name }}</a></li>
+<ul class="mb-2 pl-[150px]">
+    <li class="list-disc">Année de production : {{ movie.year }}</li>
+    <li class="list-disc">Responsable cinématographique : {{ movie.author }}</li>
+    <li class="list-disc">Avez-vous vu ce film? {{ movie.seen_or_not|yesno }}</li>
+    <li class="list-disc">Le genre de ce film : {{ movie.get_genre_display }}</li>
+    <li class="list-disc">Page du film : <a href="{{ movie.official_page }}" target="_blank">{{ movie.name }}</a></li>
 </ul>
 
-<a href="{% url 'homepage' %}">Retour à la page des films</a>
+<a href="{% url 'homepage' %}" class="pl-10">Retour à la page des films</a>
 {% endblock %}
