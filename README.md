@@ -1,4 +1,12 @@
-# Workshop Python
+<h1 align="center">Workshop Python et initiation au framework Django</h1>
+
+<p align="center">
+  
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+  <img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white">
+  
+</p>
 
 - [ ] Date: 09/08/2022
 - [ ] Durée : 4h
