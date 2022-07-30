@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add title bonus">
-      <change beforePath="$PROJECT_DIR$/2.Framework_django/06.template.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/06.template.md" afterDir="false" />
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add bonus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Introduction_python/intro_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.Introduction_python/intro_python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
       <workItem from="1658827400137" duration="10630000" />
       <workItem from="1659108731782" duration="3114000" />
       <workItem from="1659118640896" duration="994000" />
+      <workItem from="1659170896470" duration="807000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658476251158</created>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659128960908</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add bonus">
+      <created>1659129304865</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659129304865</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +287,7 @@
     <MESSAGE value="add bonus n°1" />
     <MESSAGE value="add bonus n°2" />
     <MESSAGE value="add title bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="add title bonus" />
+    <MESSAGE value="add bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bonus" />
   </component>
 </project>

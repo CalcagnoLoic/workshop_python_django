@@ -4,9 +4,13 @@
 
 Python est un langage fonctionnant en 2 étapes grâce à un interpréteur: 
 
-* lecture du fichier `.py` par l'interpréteur pour fournir un fichier binaire `.pyc`
+* Tout d'abord, on a une lecture du fichier `.py` par l'interpréteur pour fournir un fichier binaire `.pyc` se trouvant dans un fichier `__pychache__`;
 
-* interprétation du fichier binaire en langage bas niveau 
+* Ensuite, on a l'interprétation du fichier binaire en langage bas niveau et c'est là que la console python peut détecter les potentielles erreurs dans votre script. 
+
+![](../img/interpreteur.png)
+
+Voilà la raison pour laquelle vous avez du installer un interpréteur. Malgré tout, il faut savoir qu'un nouveau framework ([PyScript](https://pyscript.net/)) présenter lors de la PyCon de juin 2022 aurait son propre interpréteur vous libérant de cette contrainte d'installer un interpréteur sur vos différentes machines. 
 
 ## La syntaxe de Python 
 
@@ -16,7 +20,9 @@ Un autre élément est l'utilisation du `:` remplaçant le système de `{}` pré
 
 ## Quelques principes de base pour utiliser Django 
 
-#### Les objets de stockage
+La majorité des éléments de code de Python sont très similaires à ce que vous avez vu en JavaScript ou PHP. Bien évidemment, il y a les spécificités propres à la syntaxe comme le `:` ou l'indentation. Mais une liste reste une liste, une fonction reste une fonction, etc...
+
+### Les objets de stockage
 
 Il existe 4 types d'objet de stockage en python : 
 
@@ -75,14 +81,52 @@ while(x>5):
 
 ### Les fonctions
 
-Pour écrire un  fonction en Python, il suffit de mettre le mot-clé `def` devant la fonction pour faire comprendre à l'interpréteur de notre bloc de code correspond à une fonction. 
+Pour écrire une  fonction en Python, il suffit de mettre le mot-clé `def` devant la fonction pour faire comprendre à l'interpréteur de notre bloc de code correspond à une fonction. 
 
  ````python
 def addition(x, y):
     print("L'addition vaut ", x + y)
 
 addition(4,5)
-//L'addition vaut 9
+# L'addition vaut 9
 ````
+
+### Les classes
+
+Pour écrire une classe, vous devez utiliser le mot-clé `class`. Le principe des classes reste similaire à ce que l'on a vu en PHP à quelques différences : 
+
+- le mot clé `this` est remplacé par `self`
+- le constructeur est construit via `__init__(self, ...)`
+
+L'héritage d'une classe également un peu différente. Lors de la création d'une classe héritant d'une autre classe, vous allez simplement écrire `class nouvelle_classe(classe_héritéé):`
+
+````python
+class Utilisateur():
+    def __init__(self, prenom, age):
+        self.prenom = prenom
+        self.age = age
+        
+    def getName(self):
+        print("Je suis ", self.prenom)
+
+
+class Presentation(Utilisateur):
+    def getPresentation(self):
+        print("Je suis ", self.prenom, "et j'ai", self.age, "ans")
+
+moi2 = Presentation('Bernard', 29)
+moi2.getPresentation()
+# Je suis Bernard et j'ai 29 ans
+````
+
+### Les modules 
+
+Un module est un fichier python qui est importé dans d'autre script python. Imaginons, dans le module `matplotlib` vous voulez avoir accès aux outils pour créer des graphiques, vous aller importer le module `pyplot` depuis `matplotlib`
+
+````python
+from matplotlib import pyplot
+````
+
+L'importation de module est une pratique au cœur est projets python et encore plus dans l'architecture d'un projet Django. 
 
 [Quelques petits exercices? Ok, si vous insistez!](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.ipynb)
