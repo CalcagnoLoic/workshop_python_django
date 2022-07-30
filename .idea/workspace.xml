@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add bonus">
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="modification of the introduction of python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.Introduction_python/intro_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.Introduction_python/intro_python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Introduction_python/intro_python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1.Introduction_python/intro_python.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1658827400137" duration="10630000" />
       <workItem from="1659108731782" duration="3114000" />
       <workItem from="1659118640896" duration="994000" />
-      <workItem from="1659170896470" duration="807000" />
+      <workItem from="1659170896470" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658476251158</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659129304865</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="modification of the introduction of python">
+      <created>1659172203748</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659172203748</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +295,7 @@
     <MESSAGE value="add bonus n°2" />
     <MESSAGE value="add title bonus" />
     <MESSAGE value="add bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bonus" />
+    <MESSAGE value="modification of the introduction of python" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification of the introduction of python" />
   </component>
 </project>
