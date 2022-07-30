@@ -1,2 +1,11 @@
-# workshop_python
-Workshop sur Python et l'introduction au framework Django donné dans le cadre de la formation webdev à BeCode Charleroi
+# Workshop python / Django
+
+Vous retrouverez ici le projet complet abordé lors du workshop. 
+
+Si vous clonez ce repo, n'oubliez pas de :
+
+1. Créer votre environnement virtuel, l'activer et installer django et ses dépendances 
+
+2. Effectuer la migration 
+
+3. Créer votre accès à l'admnistration Django
