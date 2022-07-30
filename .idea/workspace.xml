@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="modification of exercises">
+    <list default="true" id="02a135d1-5ba7-4660-9c65-9a17608a1401" name="Changes" comment="add introduction at Django">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.Framework_django/0.intro_django.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/0.intro_django.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.Framework_django/02.mvt.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.Framework_django/02.mvt.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1658827400137" duration="10630000" />
       <workItem from="1659108731782" duration="3114000" />
       <workItem from="1659118640896" duration="994000" />
-      <workItem from="1659170896470" duration="4645000" />
+      <workItem from="1659170896470" duration="5639000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658476251158</created>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659175601570</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add introduction at Django">
+      <created>1659178196667</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659178196667</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +318,7 @@
     <MESSAGE value="add bonus" />
     <MESSAGE value="modification of the introduction of python" />
     <MESSAGE value="modification of exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification of exercises" />
+    <MESSAGE value="add introduction at Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="add introduction at Django" />
   </component>
 </project>
