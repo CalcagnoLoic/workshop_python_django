@@ -2,7 +2,7 @@ from django import forms
 from app1.models import ModelFilm
 
 
-class AddFilm(forms.ModelForm):
+class AddFilm(forms.Form):
     class Meta:
         model = ModelFilm
         fields = '__all__'
