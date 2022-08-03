@@ -42,9 +42,7 @@ liste = ["Steph", False, 42]
 tuple1 = ("Steph", False, 42)
 tuple2 = ("Steph", False, 42, ("Steph", True, 19))
 
-dict = {"nom" = "Steph", "age" = 19, "sport" = False}
-
-set = {"Steph", 29, True}
+dict = {"nom": "Steph", "age": 19, "sport": False}
 ````
 
 ### Les boucles conditionnelles
