@@ -127,4 +127,4 @@ from matplotlib import pyplot
 
 L'importation de module est une pratique au cœur est projets python et encore plus dans l'architecture d'un projet Django. 
 
-[Quelques petits exercices? Ok, si vous insistez!](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.ipynb)
+[Quelques petits exercices? Ok, si vous insistez!](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python_correctif.ipynb)
