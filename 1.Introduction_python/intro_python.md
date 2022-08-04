@@ -42,9 +42,7 @@ liste = ["Steph", False, 42]
 tuple1 = ("Steph", False, 42)
 tuple2 = ("Steph", False, 42, ("Steph", True, 19))
 
-dict = {"nom" = "Steph", "age" = 19, "sport" = False}
-
-set = {"Steph", 29, True}
+dict = {"nom": "Steph", "age": 19, "sport": False}
 ````
 
 ### Les boucles conditionnelles
@@ -129,4 +127,4 @@ from matplotlib import pyplot
 
 L'importation de module est une pratique au cœur est projets python et encore plus dans l'architecture d'un projet Django. 
 
-[Quelques petits exercices? Ok, si vous insistez!](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.ipynb)
+[Quelques petits exercices? Ok, si vous insistez!](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python_correctif.ipynb)
