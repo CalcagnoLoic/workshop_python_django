@@ -35,7 +35,8 @@ Vous trouverez 3 branches sur ce repo :
 - La branche `projet_bonus` correspond à deux aspects supplémentaires non traités durant le workshop
 
 ## Programme 
-
+- [ ] 9h15 - 9h30 : Intro/Rappel pour Python
+- [ ] 9h30 - 9h45 : Startproject/Startapp avec Django
 
 
 [Découvrons quelques bases utiles dans Python](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.md)
