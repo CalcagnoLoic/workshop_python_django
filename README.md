@@ -38,7 +38,8 @@ Vous trouverez 3 branches sur ce repo :
 - [ ] 9h30 - 10h00 : Intro au framework Django - Les environnements virtuels et starter un projet Django
 - [ ] 10h00 - 10h40 : MVT + Models + Migrations 
 - [ ] 10h40 - 11h00 : Admin - Create superuser 
-- [ ] 11h00 - 12h00 : Liste de films - URL + view.liste + template
+- [ ] 11h00 - 11h15 : Pause
+- [ ] 11h15 - 12h00 : Liste de films - URL + view.liste + template
 - [ ] 12h00 - 12h30 : Détails de chaque film - Url + views.details + template
 
 - [ ] 12h30 - 13h30 : Pause déjeuner
