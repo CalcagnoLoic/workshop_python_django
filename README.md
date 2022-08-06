@@ -46,8 +46,8 @@ Vous trouverez 3 branches sur ce repo :
 - [ ] 13h30 - 14h00 : Détails de chaque film - Url + views.details + template
 
 # Bonus
-- [ ] 10h30 - 10h50 : Forms
-- [ ] 10h30 - 10h50 : Ajout de style avec Tailwind
+- [ ] 14h00 - 17h00 : Forms + **Concours 'Best UI'** avec *Tailwind*
+
 
 
 
