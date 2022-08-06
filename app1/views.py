@@ -4,9 +4,9 @@ from app1.models import ModelFilm
 
 
 def homepage(request):
-    films = ModelFilm.objects.all()
+    movies = ModelFilm.objects.all()
     return render(request, 'app1/homepage.html',
-                  {'films': films})
+                  {'movies': movies})
 
 
 def movie_details(request, id):
