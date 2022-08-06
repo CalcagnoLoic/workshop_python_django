@@ -22,7 +22,7 @@ Deux parties sont abordées dans ce workshop :
 
 ## Structure du repository
 
-Ce repository a été écrit en donnant un maximum d'infos théoriques pour vous aider à comprendre la logique de Django. Des bouts de code complète l'aspect théorique. 
+Ce repository a été écrit en donnant un maximum d'infos théoriques pour vous aider à comprendre la logique de Django. Des bouts de code complètent l'aspect théorique. 
 
 Le but de ce projet est de comprendre l'arborescence d'un projet Django et d'appréhender le MVT en créant tout simplement une page web comportant une liste de films associés à leurs caractéristiques. 
 
@@ -35,8 +35,24 @@ Vous trouverez 3 branches sur ce repo :
 - La branche `projet_bonus` correspond à deux aspects supplémentaires non traités durant le workshop
 
 ## Programme 
-- [ ] 9h15 - 9h30 : Intro/Rappel pour Python
-- [ ] 9h30 - 9h45 : Startproject/Startapp avec Django
+- [ ] 9h30 - 10h00 : Intro au framework Django - Les environnements virtuels et starter un projet Django
+- [ ] 10h00 - 10h40 : MVT + Models + Migrations 
+- [ ] 10h40 - 11h00 : Admin - Create superuser 
+- [ ] 11h00 - 12h00 : Liste de films - URL + view.liste + template
+- [ ] 12h00 - 12h30 : Détails de chaque film - Url + views.details + template
+
+- [ ] 12h30 - 13h30 : Pause déjeuner
+
+- [ ] 13h30 - 14h00 : Détails de chaque film - Url + views.details + template
+
+# Bonus
+- [ ] 10h30 - 10h50 : Forms
+- [ ] 10h30 - 10h50 : Ajout de style avec Tailwind
+
+
+
+
+
 
 
 [Découvrons quelques bases utiles dans Python](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.md)
