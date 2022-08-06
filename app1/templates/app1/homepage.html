@@ -4,7 +4,7 @@
 <h1>Voici les films de votre liste :</h1>
 
 <ul>
-    {% for elem in films %}
+    {% for elem in movies %}
     <li>
         <a href="{% url 'movie_details' elem.id %}">{{elem.name}}</a>
     </li>
