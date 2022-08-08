@@ -83,7 +83,7 @@ Pour écrire une  fonction en Python, il suffit de mettre le mot-clé `def` deva
 
  ````python
 def addition(x, y):
-    somme = x + 4
+    somme = x + y
     print("L'addition vaut ", somme)
 
 addition(4,5)
