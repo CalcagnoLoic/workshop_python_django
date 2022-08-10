@@ -26,13 +26,15 @@ Ce repository a été écrit en donnant un maximum d'infos théoriques pour vous
 
 Le but de ce projet est de comprendre l'arborescence d'un projet Django et d'appréhender le MVT en créant tout simplement une page web comportant une liste de films associés à leurs caractéristiques. 
 
-Vous trouverez 3 branches sur ce repo : 
+Vous trouverez 4 branches sur ce repo : 
 
 - La branche `main` correspond à l'aspect théorique du workshop
 
 - La branche `projet_complet` correspond au projet en lui-même 
 
-- La branche `projet_bonus` correspond à deux aspects supplémentaires non traités durant le workshop
+- La branche `projet_bonus` correspond à deux aspects supplémentaires traités en tant que bonus avec une team backend et une team frontend
+
+- La branche `concours_best_ui` correspond à la branche de notre concours design. Le but est que la team frontend utilise tailwind pour styliser le site créé durant ce workshop
 
 ## Programme 
 - [ ] 9h30 - 10h00 : Intro au framework Django - Les environnements virtuels et starter un projet Django
@@ -46,21 +48,21 @@ Vous trouverez 3 branches sur ce repo :
 
 - [ ] 13h30 - 14h00 : Détails de chaque film - Url + views.details + template
 
-# Bonus
+## Bonus
 - [ ] 14h00 - 17h00 : Forms + **Concours 'Best UI'** avec *Tailwind*
-
-
-
-
-
-
-
 
 [Découvrons quelques bases utiles dans Python](https://github.com/CalcagnoLoic/workshop_python/blob/main/1.Introduction_python/intro_python.md)
 
-## Membres du workshop 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Membres du workshop 
 
 [@Ali](https://github.com/alikhalife)
 [@Anaïs](https://github.com/Nymphadorart)
 [@Loïc](https://github.com/CalcagnoLoic)
 [@Sarah](https://github.com/sarah-jpro)
+
+
+# Gagnant du concours du meilleur design tailwind
+[@Doriano](https://github.com/VVKDO98)
+
