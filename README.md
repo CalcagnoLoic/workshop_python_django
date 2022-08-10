@@ -1,11 +1,11 @@
 # Workshop python / Django
 
-Vous retrouverez ici le projet complet abordé lors du workshop. 
+Vous retrouverez ici le projet design élaboré par notre gagnant [@Doriano](https://github.com/VVKDO98)
 
-Si vous clonez ce repo, n'oubliez pas de :
+Ce projet design consistait en la refonte de notre site créé avec Django. 
 
-1. Créer votre environnement virtuel, l'activer et installer django et ses dépendances 
+Les différents participants avaient une durée d'1h00 pour designer le site à l'aide de tailwind et du filtre Crispy-Form. 
 
-2. Effectuer la migration 
-
-3. Créer votre accès à l'admnistration Django
+![](img/homepage.png)
+![](img/movie_details.png)
+![](img/contact_form.png)
